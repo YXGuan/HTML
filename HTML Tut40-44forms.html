@@ -1,0 +1,99 @@
+<!doctype html>
+
+<html>
+<head>
+	<style="text/css">
+	</style>
+</head>
+<body>
+
+
+<!--
+the gray area between webdevelopment and programming
+when we need information from the users
+e.g. type in user name upload pic  click buttons  
+-->
+
+
+<!--
+value: the default
+-->
+<form>
+	Username: <input type="text" name="username" size="20" maxlength="5" value="Enter name here"/>
+	
+		<br/>
+<!--
+The <br> tag inserts a single line break.
+The <br> tag is an empty tag which means that it has no end tag.
+given set choice
+why you need a name: in case you have a lot of buttons 
+same type same name but diffenrent value  tha's how we different them
+&nbsp non breaking space
+-->
+	Male:<input type="radio" name="sex" size="5" maxlength="5" value="male"/>
+	&nbsp &nbsp&nbsp&nbsp&nbsp   
+	Female：<input type="radio" name="sex" size="5" maxlength="5" value="female"/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<p> Select the food that you would like to order!</P>
+<!--check buttom-->
+	
+	Bacon<input type="checkbox" name"food" value = "bacon"/>
+	Ham<input type="checkbox" name"food" value = "Ham"/>
+	Tuna<input type="checkbox" name"food" value = "tuna"/>
+	Soda<input type="checkbox" name"food" value = "soda"/>
+	
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+<!--drop down list-->	
+	<p> what's up</P>
+
+	<select name="activities">
+		<option value="play">play the guitar</option>
+		<option value="physics">study physics</option>
+		<option value="school">go to school</option>
+		<option value="taco">eat taco</option>
+	</select>
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+<!--filed-->	
+	Tell me about yourself:
+	<br/>
+	<textarea name="bio" rows="8" cols="40">
+Type sth here
+	</textarea>
+	
+	
+	
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+<!--passwords and upload buttons
+ Do this on php or javascript??? <form action="do something" method="post">
+-->
+	
+	Username: <input type="text" name = "username" />
+	pssword: <input type="password" name="pword"/>
+	<input type="submit" value="submit" />
+	
+	<p>Nowsubmit a file</p>
+	<input type = "file" name = "buckysfile"/>
+	<!--question: where this file will go????-->	
+</form>
+
+
+
+</body>
+
+</html>
